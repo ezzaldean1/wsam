@@ -32,6 +32,7 @@ client.on('message', msg => {
 '**Welcome To United:tanabata_tree: ..**',
 '** Welcome to ``United``:rose: **',
 '** ``Welcome to Server United``**',
+'** __حياك ومنور سيرفر يونايتد__**',
 '** Welcome to United**',
 
 ]
