@@ -7,7 +7,7 @@
     "start": "node wes.js"
   },
   "dependencies": {
-    "discord.js": "^11.3.2",
+    "discord.js": "^11.3.2"
   },
   "engines": {
     "node": "8.4.0"
