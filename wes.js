@@ -3,14 +3,11 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
   console.log('---------------');
-  console.log(' Music Bot Is Online')
+  console.log(' Bot Is Online')
   console.log('---------------')
-  client.user.setStatus("dnd")
-    client.user.setActivity("United Server",{type: 'PLAYING'})
-	
-});
-	
-     
+    client.user.setGame(` United Server `, "http://twitch.tv/Streammingg")
+
+}); 
 	
 	
 	
