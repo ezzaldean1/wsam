@@ -5,7 +5,7 @@ client.on('ready', () => {
   console.log('---------------');
   console.log(' Bot Is Online')
   console.log('---------------')
-    client.user.setGame(` United Server `, "http://twitch.tv/Streammingg")
+
 
 }); 
 	
