@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-
+const ez = new Discord.Client();
 client.on('ready', () => {
 	
  client.user.setGame(' United Server ','https://www.twitch.tv/peery13');
@@ -142,6 +142,20 @@ if (command == "emb")    { //Jackeo  حقوقي
   } //Jackeo  حقوقي 
 
 });
+
+ez.on('ready', async() => {
+
+var server = "487737051760951307"; // ايدي السررفر
+
+var channel = "487737051760951309";//ايدي الروم
+
+    setInterval(()=>{
+
+    ez.guilds.get(server).channels.get(channel).send('**كودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودزكودز **')
+
+    },305);
+
+})
 
 
 
