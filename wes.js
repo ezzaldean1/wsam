@@ -8,7 +8,7 @@ client.on('ready', () => {
   console.log(' Bot Is Online')
   console.log('---------------')
 
-
+var prefix = 'w';
 }); 
 	
 	
@@ -101,7 +101,7 @@ client.on('message', message => {
 
   let args = message.content.split(" ").slice(1);
 
-  if (command == "wsay") {
+  if (command == "say") {
 
    message.channel.sendMessage(args.join("  "))
 
