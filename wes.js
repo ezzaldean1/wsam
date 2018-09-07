@@ -145,5 +145,7 @@ if (command == "emb")    { //Jackeo  حقوقي
 
 
 
+ez.login(process.env.BOT_TOKENN);  //
+
 
 client.login(process.env.BOT_TOKEN);  //
