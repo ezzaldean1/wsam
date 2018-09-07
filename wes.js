@@ -93,7 +93,7 @@ client.on('message', message => {
 
   if (message.author.bot) return;
 
-  if (!message.content.startsWith(prefix)) return;
+  if (!message.content.startsWith('w')) return;
 
   let command = message.content.split(" ")[0];
 
