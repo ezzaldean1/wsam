@@ -36,7 +36,7 @@ client.on('message', msg => {
 
 ]
 client.on('guildMemberAdd', member => {
-const codes = member.guild.channels.get("481132962969288713");//ايدي الشات
+const codes = member.guild.channels.get("485527500957548554");//ايدي الشات
 if(!codes) return;
 if(codes) {
 codes.send(  `${lol[Math.floor(Math.random() * lol.length)]}`);          
